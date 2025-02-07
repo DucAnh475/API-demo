@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "https://jsonplaceholder.typicode.com/posts"
+url = "https://randomuser.me/api/"
 
 respone = requests.get(url)
 

@@ -12,7 +12,7 @@ respone = requests.get(url)
 
 data = respone.json()
 
-with open('demoAPI.txt', 'a') as file:
+with open('demoAPI_random_user.txt', 'a') as file:
     json.dump(data,file, indent=4)
     file.write('\n')
 

@@ -1,7 +1,7 @@
 import json
 
-# Giả sử dữ liệu JSON từ API được lưu trong tệp demoAPI.txt
-with open('demoAPI.txt', 'r') as file:
+# Giả sử dữ liệu JSON từ API được lưu trong tệp demoAPI_random_user.txt
+with open('demoAPI_random_user.txt', 'r') as file:
     # Đọc và chuyển đổi dữ liệu từ JSON
     data = json.load(file)
 

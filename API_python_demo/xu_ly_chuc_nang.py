@@ -18,3 +18,8 @@ def thay_doi_gia_tri(api_text_file):
 
 
             print(f"{gioi_tinh_goc= }\n{gioi_tinh_thay_doi= }")
+            """
+            OUTPUT: print(f"{gioi_tinh_goc= }\n{gioi_tinh_thay_doi= }")
+            gioi_tinh_goc= 'female'
+            gioi_tinh_thay_doi= 'male' 
+            """
